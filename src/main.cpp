@@ -98,7 +98,7 @@ extern void debug (const vector<string> &args);
 int main (int argc, char **argv) {
 
  dart::simulation::WorldPtr myWorld
-      = dart::utils::SkelParser::readWorld("/home/krati/kkk/data/skel/MyManipulator2.skel");
+      = dart::utils::SkelParser::readWorld("AD_new/data/skel/MyManipulator2.skel");
   assert(myWorld != nullptr);
 
   Eigen::Vector3d gravity(0.0, -9.81, 0.0);
